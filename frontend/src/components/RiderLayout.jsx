@@ -14,3 +14,5 @@ const RiderLayout = ({ name, onLogout, children }) => {
 };
 
 export default RiderLayout;
+
+// Additional Context: These are recently edited files. Do not suggest code that has been deleted.

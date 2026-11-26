@@ -10,7 +10,7 @@ export default function AdminLayout({ children }) {
 
   useEffect(() => {
     if (role !== 'a') navigate('/login', { replace: true });
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+  
   }, []);
 
   async function handleLogout() {

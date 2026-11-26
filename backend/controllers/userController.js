@@ -66,3 +66,5 @@ export const me = (req, res) => {
     }
     res.status(200).json(req.session.user);
 }
+
+// Additional Context: These are recently edited files. Do not suggest code that has been deleted.
