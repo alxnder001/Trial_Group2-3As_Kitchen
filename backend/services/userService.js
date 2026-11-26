@@ -72,7 +72,7 @@ export const login = async (user) => {
 
     const { id, name, email, role } = existing.user;
 
-    // attach riderId for rider accounts
+    // attach riderId for rider account
     let riderId = null;
     if (role === 'r') {
         const rider = await riderModel.findRiderByUserId(id);

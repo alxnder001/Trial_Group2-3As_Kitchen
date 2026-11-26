@@ -80,3 +80,5 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
+
+// Additional Context: These are recently edited files. Do not suggest code that has been deleted.
