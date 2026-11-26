@@ -25,9 +25,6 @@ app.use(session({
     }
 }));
 
-// Every route file is mounted automatically as soon as it exists in ./routes.
-// This means a fork only needs the routes it actually has, and nobody has to
-// edit this file when they add their feature (no merge conflicts here).
 const ROUTES = {
     userRoute:     '/users',
     itemRoute:     '/items',
@@ -36,7 +33,6 @@ const ROUTES = {
     promoRoute:    '/promos',
     expenseRoute:  '/expenses',
     feedbackRoute: '/feedback',
-    // bundleRoute: '/bundles',   // extra feature, not in the WBS - uncomment to turn it on
 };
 
 for (const [file, prefix] of Object.entries(ROUTES)) {
